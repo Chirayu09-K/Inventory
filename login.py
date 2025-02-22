@@ -140,7 +140,7 @@ def signin():
         ayu.commit()
         ayu.close()
         project.destroy()
-        # Open next page
+        
     else:
         messagebox.showerror("Error", "Invalid information")
 
